@@ -18,7 +18,7 @@ const HtmlWebpackPlutin = require('html-webpack-plugin')
 const config = {
   devServer: {
         contentBase: path.join(__dirname, 'dist'),
-        port: 10000
+        port: 1000
   },
   mode: "development",
   plugins: [
